@@ -1,0 +1,80 @@
+.get{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: rgb(37, 37, 49);
+    width: 450px;
+    margin-left: 200px;
+}
+.get p:first-child{
+ font-size: 25px;
+ font-weight: 700;
+}
+.from {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 200px;
+    gap:20px;
+}
+.from-left {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.from-right {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.from input{
+    width: 300px;
+    height: 40px;
+    
+}
+
+.en img{
+    height: 200px;
+}
+.hr2{
+    margin-top: 10px;
+    border-style:dashed ;
+    width: 150px;
+    margin-right: 30px;
+    color: rgb(189, 189, 189);
+}
+
+.ple{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 220px;
+}
+.pem{
+    display: flex;
+    flex-direction:row ;
+    gap: 10px;
+    align-items: center;
+}
+.pem p:last-child{
+    font-size: 14px;
+    color: grey;
+}
+.send button{
+    padding: 10px;
+    border-radius:4% ;
+    background-color: rgb(99, 228, 228);
+    color: rgb(227, 227, 217);
+    font-weight: 700;
+    border: 1px solid  rgb(99, 228, 228);
+    margin-top: 30px    ;
+}
+.send{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap:830px;
+    margin-left: 200px;
+    
+}

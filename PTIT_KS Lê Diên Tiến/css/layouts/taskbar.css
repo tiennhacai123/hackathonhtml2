@@ -1,0 +1,43 @@
+.search-t {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(234, 226, 226);
+    gap:210px;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+.search-t img{
+    height: 250px;
+    
+}
+.search-t-item p:first-child{
+    font-size: x-large;
+    font-weight: 500;
+}
+.search-t-item p:last-child{
+    font-size: 16px;
+    color: rgb(139, 138, 138);
+}
+.search-t-item {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.search input{
+    position: absolute;
+    right: 350px;
+    height: 40px;
+    width: 340px;
+    border: 1px solid rgb(214, 208, 208);
+    border-radius: 6%;
+}
+.search p{
+    position: absolute;
+    background-color: rgb(99, 94, 94);
+    color: aliceblue;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    right: 350px;
+}

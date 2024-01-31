@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap');
+@import url(./layouts/header.css);
+@import url(./layouts/personal.css);
+@import url(./layouts/selection.css);
+@import url(./layouts/footer.css);
+@import url(./anh/);
+@import url(./layouts/taskbar.css);
+@import url(./layouts/getintouch.css);
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 15px;
+    font-family: 'Noto Sans', sans-serif;
+}
